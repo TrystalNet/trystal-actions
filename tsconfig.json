@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist"
+  },
+  "files": [
+    "./actions.ts"
+  ]
+}
