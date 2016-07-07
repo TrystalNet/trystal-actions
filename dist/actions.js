@@ -1,13 +1,5 @@
 "use strict";
 var lodash_1 = require('lodash');
-// import { KeyCodes } from '../keys'
-// import { Trist } from '../trist'
-// import { Line } from '../line'
-// import { Family, Perms } from '../constants'
-// export function onCopyLines(focusId:string)        { return { type: 'LINES_COPIED',  focusId }}
-// export function dlgMyfilesShow()                   { return { type: 'DLG_FILENAME_SHOW' } }
-// export function dlgMyfilesCancel()                 { return { type: 'DLG_FILENAME_CANCEL' } }
-// export function dlgMyfilesUpdate(filename:string)  { return { type: 'DLG_FIND_UPDATE', filename } }
 function vtristAction(tristId, vtristActionType, action) {
     if (action === void 0) { action = {}; }
     return lodash_1.extend(action, { type: 'VTRIST_ACTION', tristId: tristId, vtristActionType: vtristActionType });
@@ -16,7 +8,6 @@ function editorAction(editorActionType, action) {
     if (action === void 0) { action = {}; }
     return lodash_1.extend(action, { type: 'EDITOR_ACTION', editorActionType: editorActionType });
 }
-console.log('actions.ts v1.0.4');
 // WIP
 exports.mobileEditUpdate = function (trystup) { return ({ type: 'SET_MOBILEEDIT_UPDATE', trystup: trystup }); };
 // --------------------
