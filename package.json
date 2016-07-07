@@ -1,6 +1,6 @@
 {
   "name": "@trystal/actions",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./dist/actions.js",
   "typings": "./dist/actions.d.ts",
