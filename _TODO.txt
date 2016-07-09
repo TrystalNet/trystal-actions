@@ -1,0 +1,1 @@
+Switch babel out in favor of typescript.

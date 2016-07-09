@@ -1,9 +1,9 @@
 {
   "name": "@trystal/actions",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "",
-  "main": "./dist/actions.js",
-  "typings": "./dist/actions.d.ts",
+  "main": "dist/actions.js",
+  "typings": "dist/actions.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
